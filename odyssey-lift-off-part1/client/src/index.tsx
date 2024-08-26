@@ -5,7 +5,7 @@ import Pages from './pages';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
 const client = new ApolloClient({
-  // // 4000 ポートすでに使われているので 4001 にしている
+  // 4000 ポートすでに使われているので 4001 にしている
   uri: 'http://localhost:4001',
   cache: new InMemoryCache(),
 });
